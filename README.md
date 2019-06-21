@@ -11,7 +11,7 @@ mvn clean package
 java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
 
 <code>
-  output : Hello World!
+   Hello World!
 <code>
 publish artifact to jfro
 
@@ -19,6 +19,7 @@ add maven-deploy-plugin
 
 mvn clean package deploy 
 
+<code>
 output:
 <code>
 Uploading to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20190621.162258-8.jar
