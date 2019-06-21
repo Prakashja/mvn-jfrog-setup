@@ -21,9 +21,13 @@ mvn clean package deploy
 
 <code>
 output:
-<code>
+ 
 Uploading to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20190621.162258-8.jar
+   
 Uploaded to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20190621.162258-8.jar (2.6 kB at 841 B/s)
+
 Uploading to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20190621.162258-8.pom
+
 Uploaded to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20190621.162258-8.pom (2.1 kB at 729 B/s)
+
 <code>
