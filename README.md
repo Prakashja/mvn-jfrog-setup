@@ -8,7 +8,9 @@ cd my-app
 
 mvn clean package 
 
-java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+<code>
+java -jar my-app-1.0-SNAPSHOT.jar
+<code>
 
 <code>
    Hello World!
