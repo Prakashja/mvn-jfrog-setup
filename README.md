@@ -32,3 +32,8 @@ Uploading to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/myco
 Uploaded to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20190621.162258-8.pom (2.1 kB at 729 B/s)
 
 <code>
+
+
+<code>  
+ mvn clean package sonar:sonar -Dsonar.host.url=http://localhost:9000    -Dsonar.login=XXXXXXXXXXXXXXXXXXX
+<code>
