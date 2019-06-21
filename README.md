@@ -10,11 +10,8 @@ mvn clean package
 
 <code>
 java -jar my-app-1.0-SNAPSHOT.jar
-<code>
 
-
-<code>
-   Hello World!
+output:  Hello World!
 <code>
  
  
@@ -26,8 +23,8 @@ mvn clean package deploy
 
 
 <code>
+   
 output:
- 
 Uploading to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20190621.162258-8.jar
    
 Uploaded to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20190621.162258-8.jar (2.6 kB at 841 B/s)
