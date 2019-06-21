@@ -12,15 +12,18 @@ mvn clean package
 java -jar my-app-1.0-SNAPSHOT.jar
 <code>
 
+
 <code>
    Hello World!
 <code>
+ 
  
 publish artifact to jfro
 
 add maven-deploy-plugin
 
 mvn clean package deploy 
+
 
 <code>
 output:
