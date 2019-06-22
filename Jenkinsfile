@@ -1,21 +1,29 @@
-node {
-   def mvnHome
-   stage('clone') { // for display purposes
-      // Get some code from a GitHub repository
-      git 'https://github.com/Prakashja/mvn-jfrog-setup.git'
-      // Get the Maven tool.
-      // ** NOTE: This 'M3' Maven tool must be configured
-      // **       in the global configuration.           
-   }
+Jenkinsfile (Declarative Pipeline)
+pipeline {
+    agent any
+    tools {
+        maven 'Maven 3.3.9'
+        jdk 'jdk8'
+    }
+    stages {
+        stage ('Initialize') {
+            steps {
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = /opt/maven"
+                '''
+            }
+        }
 
-   stage('clean workspace') {
-      cleanWs()
-   }
-   
-      stage('Build is done') {
-      sh 'echo build'
-   }
-         stage('email') {
-      emailext body: 'test pipeline', subject: 'test pipeline', to: 'jaiprksh57@gmail.com'
-   }
+        stage ('Build') {
+            steps {
+                sh 'mvn -Dmaven.test.failure.ignore=true install' 
+            }
+            post {
+                success {
+                    junit 'target/surefire-reports/**/*.xml' 
+                }
+            }
+        }
+    }
 }
