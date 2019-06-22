@@ -8,8 +8,7 @@ node {
       // **       in the global configuration.           
    }
 
-   stage('Results') {
-      junit '**/target/surefire-reports/TEST-*.xml'
-      archiveArtifacts 'target/*.jar'
+   stage('clean workspace') {
+      cleanWs()
    }
 }
