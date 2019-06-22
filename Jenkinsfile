@@ -14,6 +14,9 @@ pipeline {
                 '''
             }
         }
+        stage ('clone') {
+            git 'https://github.com/Prakashja/mvn-jfrog-setup.git'
+        }
 
         stage ('Build') {
             steps {
