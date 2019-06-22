@@ -15,4 +15,7 @@ node {
       stage('Build is done') {
       sh 'echo build'
    }
+         stage('email') {
+      emailext body: 'test pipeline', subject: 'test pipeline', to: 'jaiprksh57@gmail.com'
+   }
 }
