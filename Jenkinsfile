@@ -11,4 +11,8 @@ node {
    stage('clean workspace') {
       cleanWs()
    }
+   
+      stage('Build is done') {
+      sh 'echo build'
+   }
 }
