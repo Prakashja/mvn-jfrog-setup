@@ -1,5 +1,5 @@
 1. https://serverfault.com/questions/330532/xvda1-is-100-full-what-is-it-how-to-fix
 
-<code>
+
 sudo du -x / | sort -n | tail -40
-<code>
+
