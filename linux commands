@@ -3,3 +3,14 @@
 
 sudo du -x / | sort -n | tail -40
 
+sudo yum install baobab
+
+sudo baobab /
+
+sudo yum install tree
+
+tree -x 
+
+tree -LP 1 /dev/xvda
+
+df -h
