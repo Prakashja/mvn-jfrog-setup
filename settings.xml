@@ -15,12 +15,12 @@
   <servers>
     <server>
       <username>admin</username>
-      <password>password@03</password>
+      <password>Bagbahra@123</password>
       <id>central</id>
     </server>
     <server>
       <username>admin</username>
-      <password>password@03</password>
+      <password>Bagbahra@123</password>
       <id>snapshots</id>
     </server>
   </servers>
@@ -38,13 +38,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>http://3.84.163.155:8081/artifactory/libs-release</url>
+          <url>http://54.91.12.119:8081/artifactory/libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>http://3.84.163.155:8081/artifactory/libs-snapshot</url>
+          <url>http://54.91.12.119:8081/artifactory/libs-snapshot</url>
         </repository>
       </repositories>
 
