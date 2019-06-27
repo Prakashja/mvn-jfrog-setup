@@ -15,12 +15,12 @@
   <servers>
     <server>
       <username>admin</username>
-      <password>sananaaz@03</password>
+      <password>password@03</password>
       <id>central</id>
     </server>
     <server>
       <username>admin</username>
-      <password>sananaaz@03</password>
+      <password>password@03</password>
       <id>snapshots</id>
     </server>
   </servers>
