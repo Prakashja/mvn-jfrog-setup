@@ -16,7 +16,7 @@ output:  Hello World!
  
  
 publish artifact to jfro
-
+https://medium.com/@anusha.sharma3010/integrating-jenkins-with-artifactory-6d18974d163d
 add maven-deploy-plugin
 
 mvn clean package deploy 
