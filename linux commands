@@ -16,3 +16,7 @@ tree -LP 1 /dev/xvda
 df -h
 
 netstat -na | grep
+
+https://stackoverflow.com/questions/50105414/scp-command-fails-to-copy-host-key-verification-failed
+
+scp -v  -o "StrictHostKeyChecking=no" -i 
