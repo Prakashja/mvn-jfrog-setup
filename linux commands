@@ -20,3 +20,10 @@ netstat -na | grep
 https://stackoverflow.com/questions/50105414/scp-command-fails-to-copy-host-key-verification-failed
 
 scp -v  -o "StrictHostKeyChecking=no" -i 
+
+
+Try ssh -t -t(or ssh -tt for short) to force pseudo-tty allocation even if stdin isn't a terminal.
+
+https://stackoverflow.com/questions/7114990/pseudo-terminal-will-not-be-allocated-because-stdin-is-not-a-terminal
+
+https://www.cyberciti.biz/faq/linux-unix-osx-bsd-ssh-run-command-on-remote-machine-server/
