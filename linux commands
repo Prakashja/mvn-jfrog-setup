@@ -14,3 +14,5 @@ tree -x
 tree -LP 1 /dev/xvda
 
 df -h
+
+netstat -na | grep
