@@ -18,7 +18,8 @@ echo "M2_HOME = ${M2_HOME}"
 
 stage ('Build project') {
 steps {
-
+ 
+git 'https://github.com/Prakashja/mvn-jfrog-setup.git'
 sh 'mvn clean verify'
  
 
