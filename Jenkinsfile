@@ -26,5 +26,9 @@ pipeline {
                 sh 'mvn clean package deploy -e' 
             }
         }
+      stage ('Build') {
+            steps {
+                sh 'echo build success' 
+            }
     }
 }
