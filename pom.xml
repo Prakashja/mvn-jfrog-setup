@@ -58,13 +58,13 @@
     <repository>
         <id>central</id>
         <name>ip-172-31-46-242.ec2.internal-releases</name>
-        <url>http://54.161.74.45:8081/artifactory/libs-release</url>
+        <url>http://52.207.236.100:8081/artifactory/libs-release</url>
     </repository>
 
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-46-242.ec2.internal-snapshots</name>
-        <url>http://54.161.74.45:8081/artifactory/libs-snapshot</url>
+        <url>http://52.207.236.100:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
 	</distributionManagement>
 </project>
