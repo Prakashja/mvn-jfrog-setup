@@ -31,5 +31,11 @@ pipeline {
                 sh 'echo build success' 
             }
     }
+       stage ('deploy') { 
+           steps {
+        sh label: '', script: '''mkdir jenkins
+cd jenkins'''
+           }
+       }
 }
 }
