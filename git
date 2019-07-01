@@ -1,0 +1,21 @@
+git config --global user.name <name>
+git config --global user.email <email>
+
+git init
+
+git remote 
+git clone
+git add 
+git commit -m ""
+git push
+git pull
+git fetech
+git merge 
+git rebase
+git reset HEAD <to revert commit>
+git revert -- filename  <to unstage>
+git branch
+git tag
+git checkout 
+
+
