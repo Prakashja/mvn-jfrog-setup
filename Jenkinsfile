@@ -23,7 +23,7 @@ pipeline {
 
         stage ('Build') {
             steps {
-                sh 'mvn clean package deploy -e' 
+                sh 'mvn clean package' 
             }
         }
       stage ('Build-status') {
