@@ -46,6 +46,10 @@ _A list of my commonly used Git commands_
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
+| `git stash save` | This command temporarily stores all the modified tracked files. |
+| `git stash pop` | This command restores the most recently stashed files. |
+| `git stash list` | This command lists all stashed changesets. |
+| `git stash drop` | This command discards the most recently stashed changeset. |
 | `git stash clear` | Remove all stashed entries |
 
 ### Sharing & Updating Projects
