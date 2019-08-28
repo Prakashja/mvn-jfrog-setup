@@ -57,13 +57,13 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>ip-172-31-5-184.us-east-2.compute.internal-releases</name>
-        <url>http://3.17.165.70:8040/artifactory/libs-release</url>
+        <name>88e3b9f7d5ce-releases</name>
+        <url>http://ip172-18-0-45-blj9arqd7o0g00d6qgvg-8081.direct.labs.play-with-docker.com/artifactory/libs-release</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-172-31-5-184.us-east-2.compute.internal-snapshots</name>
-        <url>http://3.17.165.70:8040/artifactory/libs-snapshot</url>
+        <name>88e3b9f7d5ce-snapshots</name>
+        <url>http://ip172-18-0-45-blj9arqd7o0g00d6qgvg-8081.direct.labs.play-with-docker.com/artifactory/libs-snapshot</url>
     </snapshotRepository>
 	</distributionManagement>
 
