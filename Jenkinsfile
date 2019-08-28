@@ -36,5 +36,10 @@ pipeline {
             sh 'touch mydeploy.txt'
            }
        }
+       stage ('clean workspace') { 
+           steps {
+            cleanWs()
+           }
+       }
 }
 }
