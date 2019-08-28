@@ -33,7 +33,7 @@ pipeline {
     }
        stage ('deploy') { 
            steps {
-            sh "touch mydeploy.txt
+            sh 'touch mydeploy.txt'
            }
        }
 }
