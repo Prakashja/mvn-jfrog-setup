@@ -28,3 +28,4 @@ ref : https://serverfault.com/questions/530787/ssh-tunnel-access-remote-server-w
 ssh -L 8080:private.remoteserver:8080 remoteserver
 
 cd to change directory
+sacnascnk
