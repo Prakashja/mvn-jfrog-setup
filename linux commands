@@ -29,3 +29,6 @@ ssh -L 8080:private.remoteserver:8080 remoteserver
 
 a=5
 b=15
+
+
+ssh -o proxycommand='ssh -i ~/.ssh/bless_key.pem -W %h:%p ec2-user@3.86.106.3' -i ~/.ssh/bless_key.pem ec2-user@10.20.2.21
