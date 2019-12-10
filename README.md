@@ -40,6 +40,8 @@ Uploaded to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/mycom
  mvn clean package sonar:sonar -Dsonar.host.url=http://localhost:9000    -Dsonar.login=XXXXXXXXXXXXXXXXXXX
 <code>
  
- <code>
+
+
+
  https://sigmoidal.io/automatic-code-quality-checks-with-git-hooks/
- <code>
+
