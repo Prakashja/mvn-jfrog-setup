@@ -1,4 +1,7 @@
 pipeline {
+    node('master') {
+    // some block
+}
     agent any
     tools {
         maven 'maven3.6.3'
