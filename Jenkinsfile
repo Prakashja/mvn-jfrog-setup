@@ -1,8 +1,13 @@
 pipeline {
-    node('master') {
-    // some block
-}
+    
     agent any
+node('master') {
+    stage('GetNodeName') {
+    def node_name = "${NODE_NAME}"
+    echo "The Node Name is: ${node_name}"
+    }
+}
+    
     tools {
         maven 'maven3.6.3'
         jdk 'java8'
