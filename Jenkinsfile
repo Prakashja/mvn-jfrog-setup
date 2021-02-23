@@ -16,7 +16,7 @@ pipeline {
      
      stage ('clone') {
             steps {
-                git 'https://github.com/Prakashja/mvn-jfrog-setup.git'
+                git -b master 'https://github.com/Prakashja/mvn-jfrog-setup.git'
             }
 
         }
