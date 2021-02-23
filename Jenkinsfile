@@ -16,7 +16,7 @@ pipeline {
      
      stage ('clone') {
             steps {
-                git -b master 'https://github.com/Prakashja/mvn-jfrog-setup.git'
+                git credentialsId: 'node1', url: 'https://github.com/Prakashja/mvn-jfrog-setup.git'
             }
 
         }
