@@ -4,6 +4,10 @@ pipeline {
         maven 'maven3.6'
         jdk 'java8'
     }
+    parameters {
+  string defaultValue: 'dev', description: '', name: 'environment', trim: false
+}
+
     stages {
         stage ('Initialize') {
             steps {
