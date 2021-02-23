@@ -38,7 +38,7 @@ pipeline {
        stage ('deploy') { 
            steps {
             sh 'touch mydeploy.txt'
-               echo "${environment}
+               echo "${environment}"
            }
        }
        stage ('clean workspace') { 
